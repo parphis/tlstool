@@ -1,0 +1,33 @@
+object ReportsW: TReportsW
+  Left = 227
+  Top = 108
+  BorderIcons = [biSystemMenu]
+  ClientHeight = 290
+  ClientWidth = 592
+  Color = clBtnFace
+  ParentFont = True
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object setupanswer_m: TMemo
+    Left = 0
+    Top = 0
+    Width = 592
+    Height = 290
+    Align = alClient
+    BevelKind = bkFlat
+    BorderStyle = bsNone
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindow
+    Font.Height = -9
+    Font.Name = 'Fixedsys'
+    Font.Style = []
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 0
+    ExplicitWidth = 607
+    ExplicitHeight = 292
+  end
+end

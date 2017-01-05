@@ -1,0 +1,1331 @@
+;Language file for TLStool software
+;build: 1.0
+;Created: 11.20.06
+;Modified: 02.09.07
+
+[language]
+lang=english
+
+[translator]
+name=Istvan Vig
+email=IstvanVig@acis.hu
+
+[mainformcaption]
+MainForm=TLStool
+
+[mainmenu]
+file_m=File
+saveconfig_m=Backup...
+loadconfig_m=Restore...
+exit_m=Exit
+options_m=Options
+programop_m=Software...
+commop_m=Communication...
+help_m=Help
+index_m=Index
+about_m=About
+viewreport_m=Show/hide report window
+port_m=Port
+connect_m=Connect
+disconnect_m=Disconnect
+
+[maingroupbox]
+change_gb=Change selected item
+
+[toolbarhints]
+commop_tbbtn=Communication options
+help_tbbtn=Help
+loadconfig_tbbtn=Load configuration
+programop_tbbtn=Software options
+saveconfig_tbbtn=Save configuration
+showreportwindow_tbbtn=Show or hide report window
+
+[pages]
+setup_pg=Setup functions
+control_pg=Control functions
+reconc_pg=Reconciliaton reports
+variance_pg=Variance analysis reports
+operation_pg=Operational reports
+diag_pg=Diagnostic reports
+
+[programoptions]
+0=Software options
+1=Main window
+2=Save options
+3=Show toolbar
+4=Display report window on startup
+5=Report window colors
+6=Background
+7=Font
+8=Language
+9=Select language:
+10=English
+11=German
+12=Hungarian
+13=Source directory
+14=OK
+15=Cancel
+
+[portoptions]
+0=Communication options
+1=Name:
+2=Baud rate
+3=Parity
+4=Stopbit
+5=Byte size
+6=Time outs
+7=Read interval
+8=Read multipl.
+9=Read const.
+10=Write multipl.
+11=Write const.
+12=Write repetition
+13=Read repetition
+14=OK
+15=Cancel
+
+[about]
+0=About
+1=OK
+
+[backup]
+0=Backup
+1=Restore
+2=File name:
+3=Author name:
+4=Creation date:
+5=Station
+6=Place
+7=Name
+8=Address
+9=Device
+10=Type
+11=Serialnumber
+12=Notes
+13=OK
+14=Cancel
+
+[backupprocess]
+0=Process...
+1=Current process:
+2=Error(s) and warning(s):
+3=Cancel
+
+[errorstrings]
+0=Please enter a valid file name!
+1=:: Communication error: could not find serial device! ::
+2=:: Communication error: read error! ::
+3=:: Communication: nothing to read from port! ::
+4=:: Communication error: could not find serial device! ::
+5=:: Communication error: write error! ::
+6=:: Communication error: write error! ::
+7=:: Communication error: write error! ::
+8=:: Communication error: error on empty read buffer! ::
+9=:: Communication error: checksum error! ::
+
+[setupgroup]
+caption=Setup functions
+0=System
+1=Communication
+2=In-tank
+3=Fuel management
+4=In-tank leak test
+5=Pressure line leak
+6=WPLLD line leak
+7=Line leak detector
+8=Line leak test
+9=Line leak lockout
+10=Pump sensor
+11=Reconciliation
+12=Liquid sensor
+13=Vapor sensor
+14=Grounwater sensor
+15=2 wire CL sensor
+16=3 wire CL sensor
+17=External input
+18=Output relay
+19=PLLD line disable
+20=WPLLD line disable
+21=Line disable
+22=Smart sensor
+23=Archive utility
+
+[systemsetup]
+count=56
+0=System language
+1=System units
+2=System Date/Time format
+3=Set Month day year
+4=Set time
+5=Station header line #1
+6=Station header line #2
+7=Station header line #3
+8=Station header line #4
+9=Shift #1 start time
+10=Shift #2 start time
+11=Shift #3 start time
+12=Shift #4 start time
+13=Shift BIR printouts (option)
+14=Daily BIR printouts (option)
+15=Ticketed delivery
+16=TC ticketed delivery
+17=Close day of week
+18=Daily delivery variance reports
+19=Weekly delivery variance reports
+20=Periodic delivery variance reports
+21=Daily book variance reports
+22=Weekly books variance reports
+23=Periodic book variance reports
+24=Daily variance analysis reports
+25=Weekly variance analysis reports
+26=Periodic variance analysis reports
+27=Tank periodic test needed warning
+28=Tank periodic test needed warning days
+29=Tank periodic test needed alarm days
+30=Tank annual test needed warning
+31=Tank annual test needed warning days
+32=Tank annual test needed alarm days
+33=Line re-enable method
+34=Line periodic test needed warning
+35=Line periodic test needed warning days
+36=Line periodic test needed alarm days
+37=Line annual test needed warning
+38=Line annual test needed warning days
+39=Line annual test needed alarm days
+40=Remote printer page eject
+41=Print TC volumes
+42=Temperature compensation
+43=Tanker load report (option)
+44=Stick height offset
+45=H-Protocol data format
+46=Precision test duration (PLLD/WPLLD only)
+47=0.2(0.76) Line test auto-confirm
+48=0.1(0.38) Line test auto-confirm
+49=Daylight savings time
+50=HRM-QPLD printouts (Europe only)
+51=Re-direct local printout (Gilbarco only)
+52=Euro protocol prefix
+53=BDIM trans alarm delay
+54=RS232 system security code
+55=Custom alarm labels
+
+[commsetup]
+count=6
+0=Port settings
+1=Auto transmit setup (RS-232 only)
+2=Phone directory setup (modem only)
+3=Auto dial setup (modem only)
+4=Auto dial alarm (modem only)
+5=RS-232 end of message
+
+[intanksetup]
+count=40
+0=Tank configuration module 1
+1=Product label
+2=Product code
+3=Thermal coefficient
+4=Tank diameter
+5=Tank profile
+6=Full volume
+7=Meter data present
+8=End factor
+9=End value
+10=Calibration update
+11=Float size
+12=Water warning limit
+13=High water warning limit
+14=Max or label value
+15=Overfill limit
+16=High product
+17=Delivery limit
+18=Low product
+19=Leak alarm limit
+20=Sudden loss limit
+21=Tank tilt
+22=Probe offset
+23=Siphon manifolded
+24=Line manifolded
+25=Leak minimum periodic
+26=Leak minimum annual
+27=Periodic test type
+28=Annual test fail alarm
+29=Periodic test fail alarm
+30=Gross test fail alarm
+31=Annual test averaging
+32=Periodic test averaging
+33=Tank test notify
+34=Tank test siphon break
+35=Stick offset
+36=HRM reconc. warning limit
+37=HRM reconc. alarm limit
+38=Delivery delay
+39=Pump threshold
+
+[fuelmanagementsetup]
+count=3
+0=Delivery warning
+1=Fuel management auto print
+2=Average daily sales
+
+[intankleaktestsetup]
+count=9
+0=Test method
+1=Test frequency
+2=Gross test auto-confirm (if CSLD sel. w/Pump sense)
+3=Test start time
+4=Leak test rate
+5=Test duration
+6=Leak test early stop
+7=Report only (if CSLD selected)
+8=Leak test report format
+
+[pressurelineleaksetup]
+count=13
+0=Line configuration module 1
+1=Pressure line label
+2=Piping type
+3=Line length
+4=0.2 gph (0.76 lph) test
+5=0.1 gph (0.38 lph) test
+6=Shutdown rate
+7=Low pressure shutoff
+8=Low pressure value
+9=Select tank
+10=Dispense mode
+11=Pressure transducer
+12=Pressure offset value
+
+[wplldlineleaksetup]
+count=10
+0=Line configuration module 1
+1=WPLLD line label
+2=Piping type
+3=Line length
+4=0.2 gph (0.76 lph) test
+5=0.1 gph (0.38 lph) test
+6=Shutdown rate
+7=Select tank
+8=Dispense mode
+9=Pressure offset value
+
+[lineleakdetectorsetup]
+count=13
+0=Line configuration module 1
+1=Enter pipe label
+2=Tank #
+3=Dispense mode
+4=Fuel type
+5=2-Inch (50mm) piping length
+6=3-Inch (76mm) piping length
+7=Pipe type
+8=Pump pressure
+9=Shut down rate
+10=Pumpside test
+11=Wait mode
+12=NPB partner
+
+[lineleaktestsetup]
+count=4
+0=Leak test method
+1=Test frequency
+2=Leak test start time
+3=Test rate
+
+[lineleaklockoutsetup]
+count=1
+0=Lockout scheudle
+
+[pumpsensorsetup]
+count=3
+0=Pump sense configuration module 1
+1=Select tank
+2=Dispense mode
+
+[reconciliationsetup]
+count=14
+0=Dispenser module data string
+1=Automatic daily closing time
+2=Auto shift #1 closing time
+3=Auto shift #2 closing time
+4=Auto shift #3 closing time
+5=Auto shift #4 closing time
+6=Periodic reconciliation mode
+7=Periodic recinciliation alarm
+8=Periodic recinciliation alarm threshold
+9=Periodic recinciliation alarm offset
+10=Remote report format
+11=Temperature compensation
+12=Meter calibration offset
+13=Modify tank/meter map
+
+[liquidsensorsetup]
+count=4
+0=Sensor configuration module 1
+1=Sensor location
+2=Sensor types
+3=Category
+
+[vaporsensorsetup]
+count=4
+0=Sensor configuartion module 1
+1=Sensor location
+2=Sensor threshold
+3=Category
+
+[groundwatersensorsetup]
+count=3
+0=Sensor configuration module 1
+1=Sensor location
+2=Category
+
+[twowireclsensorsetup]
+count=4
+0=Sensor configuration module 1
+1=Sensor location
+2=Sensor types
+3=Category
+
+[threewireclsensorsetup]
+count=4
+0=Sensor configuration module 1
+1=Sensor location
+2=Sensor mode
+3=Category
+
+[externalinputsetup]
+count=3
+0=Input configuration module 1
+1=Input name
+2=External input type
+
+[outputrelaysetup]
+count=4
+0=Relay configuration module 1
+1=Enter relay designation
+2=Select relay type
+3=Relay assignments
+
+[plldlinedisablesetup]
+count=1
+0=Relay assignements
+
+[wplldlinedisablesetup]
+count=1
+0=Relay assignements
+
+[linedisablesetup]
+count=1
+0=Relay assignements
+
+[smartsensorsetup]
+count=3
+0=Smart sensor configuration module 1
+1=Enter smart sensor label
+2=Select smart sensor category
+
+[archiveutility]
+count=3
+0=Save setup data
+1=Restore setup data
+2=Clear setup data
+
+[getnumberdialog]
+0=Get number
+1=Select device number:
+2=OK
+3=Cancel
+
+[setsystemtypeandsetup]
+0=U.S.
+1=Metric
+2=Imperial Gallons
+3=English
+4=French
+5=Spanish
+6=German
+7=Portuguese
+8=Polish
+9=Swedish
+10=Japanese
+11=Finnish
+12=Set System Type & Language Flags
+13=Select system units
+14=Select system language
+15=OK
+16=Cancel
+
+[setsystemdatetimeformat]
+0=Set system date time display format
+1=Select type of the display format
+2=MON DD, YYYY HH:MM:SS xM (12 Hour Clock)                                     
+3=MON DD YYYY HH:MM:SS (24 Hour Clock)                                     
+4=MM-DD-YY HH:MM:SS xM (12 Hour Clock)                                     
+5=MM-DD-YY HH:MM:SS (24 Hour Clock)                                     
+6=DD-MM-YY HH:MM:SS (24 Hour Clock)                                     
+7=YY-MM-DD HH:MM:SS (24 Hour Clock)  
+8=OK
+9=Cancel
+
+[settimeofday]
+0=Set time of day
+1=OK
+2=Cancel
+3=Date
+4=Time
+
+[setprintheaderline]
+0=Set print header line 1, 2, 3, 4
+1=Station header #1
+2=Station header #2
+3=Station header #3
+4=Station header #4
+5=OK
+6=Cancel
+
+[setshiftstarttime]
+0=Set shift start time
+1=Shift #1 start time
+2=Shift #2 start time
+3=Shift #3 start time
+4=Shift #4 start time
+5=OK
+6=Cancel
+
+[setshiftbirprintouts]
+0=Set shift BIR printouts
+1=Shift BIR printouts
+2=OK
+3=Cancel
+
+[setdailybirprintouts]
+0=Set daily BIR printouts
+1=Daily BIR printouts
+2=OK
+3=Cancel
+
+[setticketeddelivery]
+0=Set ticketed delivery
+1=Ticketed delivery
+2=OK
+3=Cancel
+
+[settcticketeddelivery]
+0=Set ticketed delivery temperature compensation
+1=TC ticketed delivery
+2=OK
+3=Cancel
+
+[settdclosedayofweek]
+0=Set ticketed delivery close day of week
+1=Select close day of week
+2=Monday
+3=Tuesday
+4=Wednesday
+5=Thursday
+6=Friday
+7=Saturday
+8=Sunday
+9=OK
+10=Cancel
+
+[setdeliveryvarianceflag]
+0=Set ticketed delivery variance flags
+1=Daily delivery variance
+2=Weeklay delivery variance
+3=Periodic delivery variance
+4=OK
+5=Cancel
+
+[setdeliverybookvarianceflag]
+0=Set ticketed delivery book variance flags
+1=Daily book variance
+2=Weeklay book variance
+3=Periodic book variance
+4=OK
+5=Cancel
+
+[setvarianceanalysisflag]
+0=Set ticketed variance analysis flags
+1=Daily variance analysis
+2=Weeklay variance analysis
+3=Periodic variance analysis
+4=OK
+5=Cancel
+
+[setperiodictest]
+0=Set tank periodic test needed warning
+1=Periodic test needed warning
+2=Days before periodic test needed warning
+3=Days before periodic test needed alarm
+4=OK
+5=Cancel
+
+[setannualtest]
+0=Set tank annual test needed warning
+1=Annual test needed warning
+2=Days before annual test needed warning
+3=Days before annual test needed alarm
+4=OK
+5=Cancel
+
+[setlinereenablemethod]
+0=Set line re-enable method
+1=Line re-enable method
+2=Pass line test
+3=Alarm acknowledge
+4=OK
+5=Cancel
+
+[setlineperiodictest]
+0=Set line periodic test needed warning
+1=Line periodic test needed warning
+2=Days before line periodic test needed warning
+3=Days before line periodic test needed alarm
+4=OK
+5=Cancel
+
+[setlineannualtest]
+0=Set line annual test needed warning
+1=Line annual test needed warning
+2=Days before line annual test needed warning
+3=Days before line annual test needed alarm
+4=OK
+5=Cancel
+
+[setremoteprinterpageeject]
+0=Set remote printer page eject
+1=Remote printer page eject
+2=OK
+3=Cancel
+
+[setprinttc]
+0=Set print temperature compensation
+1=Print temperature compensation
+2=OK
+3=Cancel
+
+[settemperaturecompensation]
+0=Set temperature compensation value
+1=Temperature compensation value
+2=OK
+3=Cancel
+
+[settankerloadreport]
+0=Set tanker load report
+1=Tanker load report
+2=OK
+3=Cancel
+
+[setstickheightoffsetflag]
+0=Set stick height offset
+1=Stick height offset
+2=OK
+3=Cancel
+
+[sethprotocoldataformat]
+0=Set H-Protocol data format
+1=Height
+2=Volume
+3=OK
+4=Cancel
+
+[setprectestduration]
+0=Set precision test duration
+1=Precision test duration (PLLD/WPLLD only)
+2=OK
+3=Cancel
+
+[set02linetestautoconfirm]
+0=Set precision line test auto confirm 0.2gph (0.76lph)
+1=Precision line test auto confirm (0.2gph)
+2=OK
+3=Cancel
+
+[set01linetestautoconfirm]
+0=Set precision line test auto confirm 0.1gph (0.38lph)
+1=Precision line test auto confirm (0.1gph)
+2=OK
+3=Cancel
+
+[setdaylightsavingstime]
+0= Set daylight savings time
+1=Daylight savings time
+2=Start
+3=Month
+4=Week of month
+5=Day of week
+6=Hour
+7=End
+8=Month
+9=Week of month
+10=Day of week
+11=Hour
+12=OK
+13=Cancel
+
+[setredirectlocalprintout]
+0=Set re-direct local printout
+1=Re-direct local printout
+2=OK
+3=Cancel
+
+[setqpldmonthlyprintout]
+0=Set QPLD monthly printout
+1=QPLD monthly printout
+2=OK
+3=Cancel
+
+[seteuroprotocolprefix]
+0=Set euro protocol prefix
+1=Command response prefix is 'S'
+2=Command response prefix is 'd'
+3=OK
+4=Cancel
+
+[setsystemcode]
+0=Set RS232 system security code
+1=Type RS232 system security code
+2=OK
+3=Cancel
+
+[portsettings]
+0=Port settings
+1=Select port number:
+2=Baud rate
+3=300
+4=1200
+5=2400
+6=4800
+7=9600
+8=Parity
+9=None
+10=Odd
+11=Even
+12=Stop bit
+13=One stop bit
+14=Two stop bit
+15=Data length
+16=7 bit
+17=8 bit
+18=Dial type
+19=Tone
+20=Pulse
+21=Answer on
+22=Security code
+23=Modem type
+24=NETCOMM SMART M7F
+25=US ROBOTICS (UK)
+26=Setup string
+27=Dial tone interval
+28=DTR normal state
+29=Normally low
+30=Normally high
+31=OK
+32=Cancel
+
+[phonedirectorysetup]
+0=Phone directory setup
+1=Select receiver number:
+2=Receiver configuration
+3=Receiver location
+4=Receiver tel. number
+5=Receiver modem
+6=Receiver type
+7=Teletype
+8=Facsimile
+9=Computer
+10=Receiver retry number
+11=Receiver retry delay time
+12=Receiver comfirmation report
+13=OK
+14=Cancel
+
+[autodialsetup]
+0=Auto-dial setup
+1=Select receiver number:
+2=Report list
+3=System status
+4=Nonpriority history
+5=Inventory
+6=Leak detect
+7=Pressure LLD result
+8=Periodic dlvy var
+9=Fuel management
+10=Last delivery
+11=Priority history
+12=Periodic book var
+13=In-tank status
+14=Delivery
+15=Shift inventory
+16=Daily var analy
+17=Periodic row report
+18=CSLD report
+19=Line leak status
+20=WPLLD LLD result
+21=Auto dial method
+22=All phones
+23=Single phone
+24=Auto dial frequency
+25=On date
+26=Annually
+27=Monthly
+28=Weekly
+29=Daily
+30=BIR end
+31=On date
+32=Annually
+33=Month
+34=Week
+35=Day
+36=Monthly
+37=Week
+38=Day
+39=Weekly
+40=Day
+41=Daily
+42=BIR end
+43=Time: auto daily closing
+44=OK
+45=Cancel
+46=Time enabled
+
+[setautodialonalarms]
+0=Auto-Dial alarm setup
+;main alarms and warnings
+1=System
+2=Tank Alarm
+3=Liquid Sensor Alarm
+4=Vapor Sensor Alarm
+5=Input Alarm
+6=Volumetric Line Leak Alarm
+7=Groundwater Sensor Alarm
+8=Type A Sensor Alarm
+9=Type B Sensor Alarm
+10=Universal Sensor Alarm
+11=Auto-Dial Fax Alarm
+12=Mechanical Dispenser Interface Alarm
+13=Electronic Dispenser Interface Alarm
+14=Product Alarm
+15=Pressure Line Leak Alarm
+16=Wireless PLLD Alarm
+;if AA is 01
+17=Printer out of Paper
+18=Printer Error
+19=EEPROM Configuration Error
+20=Battery Off
+21=Too Many Tanks
+22=System Security Warning
+23=ROM Revision Warning
+24=Remote Display Communications Error
+25=Autodial Error
+26=Software Module Warning
+27=Tank Test Shutdown Warning
+28=Protective Cover Alarm
+29=BIR Shift Close Pending
+30=BIR Daily Close Pending
+31=PC(H8) Revision Warning
+32=System Self Test Error
+33=System Clock Incorrect Warning
+34=System Device Poll Timeout
+;AA is 02
+35=Tank Setup Data Warning
+36=Tank Leak Alarm
+37=Tank High Water Alarm
+38=Tank Overfill Alarm
+39=Tank Low Product Alarm
+40=Tank Sudden Loss Alarm
+41=Tank High Product Alarm
+42=Tank Invalid Fuel Level Alarm
+43=Tank Probe Out Alarm
+44=Tank High Water Warning
+45=Tank Delivery Needed Warning
+46=Tank Maximum Product Alarm
+47=Tank Gross Leak Test Fail Alarm
+48=Tank Periodic Leak Test Fail Alarm
+49=Tank Annual Leak Test Fail Alarm
+50=Tank Periodic Test Needed Warning
+51=Tank Annual Test Needed Warning
+52=Tank Periodic Test Needed Alarm
+53=Tank Annual Test Needed Alarm
+54=Tank Leak Test Active
+55=Tank No CSLD Idle Time Warning
+56=Tank Siphon Break Active Warning
+57=Tank CSLD Rate Increase Warning
+58=Tank AccuChart Calibration Warning
+59=Tank HRM Reconciliation Warning
+60=Tank HRM Reconciliation Alarm
+61=Tank Cold Temperature Warning
+62=Tank Missing Delivery Ticket Warning
+63=Tank/Line Gross Leak Alarm
+;If AA is 03, 04, 07, 08, 12, or 13
+64=Sensor Setup Data Warning
+65=Sensor Fuel Alarm
+66=Sensor Out Alarm
+67=Sensor Short Alarm
+68=Sensor Water Alarm
+69=Sensor Water Out Alarm
+70=Sensor High Liquid Alarm
+71=Sensor Low Liquid Alarm
+72=Sensor Liquid Warning
+;If AA is 05
+73=Input Setup Data Warning
+74=Input Normal
+75=Input Alarm
+;If AA is 06
+76=VLLD Setup Data Warning
+77=VLLD Self Test Alarm
+78=VLLD Shutdown Alarm
+79=VLLD Leak Test Fail Alarm
+80=VLLD Selftest Invalid Warning
+81=VLLD Continuous Handle On Warning
+82=VLLD Gross Line Test Fail Alarm
+83=VLLD Gross Line Selftest Fail Alarm
+84=VLLD Gross Pump Test Fail Alarm
+85=VLLD Gross Pump Selftest Fail Alarm
+86=VLLD Periodic Test Needed Warning
+87=VLLD Annual Test Needed Warning
+88=VLLD Periodic Test Needed Alarm
+89=VLLD Annual Test Needed Alarm
+90=VLLD Periodic Line Test Fail Alarm
+91=VLLD Periodic Line Selftest Fail Alarm
+92=VLLD Periodic Pump Test Fail Alarm
+93=VLLD Periodic Pump Selftest Fail Alarm
+94=VLLD Annual Line Test Fail Alarm
+95=VLLD Annual Line Selftest Fail Alarm
+96=VLLD Annual Pump Test Fail Alarm
+97=VLLD Annual Pump Selftest Fail Alarm
+98=VLLD Pressure Warning
+99=VLLD Pressure Alarm
+100=VLLD Gross Test Fault Alarm
+101=VLLD Periodic Test Fault Alarm
+102=VLLD Annual Test Fault Alarm
+103=VLLD Fuel Out Alarm
+;If AA is 14
+104=Autodial Setup Data Warning
+105=Autodial Failed Alarm
+106=Autodial Service Report Warning(Added in V19)
+107=Autodial Alarm Clear Warning(Added in V19)
+108=Autodial Delivery Report Warning(Added in V19)
+;If AA is 18, 19
+109=DIM Disabled Alarm
+110=DIM Communication Failure Alarm
+111=DIM Transaction Alarm
+;If AA is 20
+112=BIR Setup Data Warning
+113=BIR Threshold Alarm
+114=BIR Close Shift Warning
+115=BIR Close Daily Warning
+;If AA is 21
+116=PLLD Setup Data Warning
+117=PLLD Gross Test Fail Alarm
+118=PLLD Annual Test Fail Alarm
+119=PLLD Periodic Test Needed Warning
+120=PLLD Periodic Test Needed Alarm
+121=PLLD Sensor Open Alarm
+122=PLLD High Pressure Alarm(Obsolete V19)
+123=PLLD Shutdown Alarm
+124=PLLD High Pressure Warning(Obsolete V19)
+125=PLLD Continuous Handle On Warning(Obsolete V19)
+126=PLLD Periodic Test Fail Alarm
+127=PLLD Annual Test Needed Warning
+128=PLLD Annual Test Needed Alarm
+129=PLLD Low Pressure Alarm
+130=PLLD Sensor Short Alarm(Obsolete V19)
+131=PLLD Continuous Handle On Alarm
+132=PLLD Fuel Out Alarm
+133=PLLD Line Equipment Alarm
+;If AA is 26
+134=WPLLD Setup Data Warning
+135=WPLLD Gross Test Fail Alarm
+136=WPLLD Periodic Test Fail Alarm
+137=WPLLD Periodic Test Needed Warning
+138=WPLLD Periodic Test Needed Alarm
+139=WPLLD Sensor Open Alarm
+140=WPLLD Communications Alarm
+141=WPLLD Shutdown Alarm
+142=WPLLD Continuous Handle On Warning(Obsolete V19)
+143=WPLLD Annual Test Fail Alarm
+144=WPLLD Annual Test Needed Warning
+145=WPLLD Annual Test Needed Alarm
+146=WPLLD High Pressure Warning(Obsolete V19)
+147=WPLLD High Pressure Alarm(Obsolete V19)
+148=WPLLD Sensor Short Alarm(Obsolete V19)
+149=WPLLD Continuous Handle On Alarm
+150=WPLLD Fuel Out Alarm
+151=WPLLD Line Equipment Alarm
+152=OK
+153=Cancel
+
+[setrs232endofmessage]
+0=RS-232 end of message
+1=RS-232 end of message
+2=OK
+3=Cancel
+
+[settankconfiguration]
+0=Tank configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #1 - position 3
+4=Slot #1 - position 4
+5=Slot #2 - position 1
+6=Slot #2 - position 2
+7=Slot #2 - position 3
+8=Slot #2 - position 4
+9=Slot #3 - position 1
+10=Slot #3 - position 2
+11=Slot #3 - position 3
+12=Slot #3 - position 4
+13=Slot #4 - position 1
+14=Slot #4 - position 2
+15=Slot #4 - position 3
+16=Slot #4 - position 4
+17=OK
+18=Cancel
+
+[intanksettings]
+0=Tank settings 
+1=Product label
+2=Product code
+3=Coeff. of thermal exp.
+4=Tank diameter
+5=Meter data present
+6=End factor
+7=None
+8=Flat
+9=Hemispheric
+10=Other
+11=End value:
+12=
+13=Calibration update
+14=Immediate
+15=Periodic
+16=Complete
+17=Never
+18=Float size
+19=4.0" (101mm)
+20=3.0" (76mm)
+21=2.0" (50mm)
+22=1.0" (25mm)
+23=Custom
+24=Water warning
+25=High water limit
+26=Max or label vol
+27=Overfill limit [%]
+28=High product [%]
+29=Delivery limit [%]
+30=Low product
+31=Leak alarm limit
+32=Sudden loss limit
+33=Tank tilt
+34=Probe offset
+35=Manifolded partners
+36=Leak minimum periodic [%]
+37=Leak minimum annual [%]
+38=Periodic test type
+39=Standard
+40=Quick
+41=Annual test fail
+42=Periodic test fail
+43=Gross test fail
+44=Annual test averaging
+45=Periodic test averaging
+46=Tank test notify
+47=Tank test siphon break
+48=Stick offset
+49=HRM reconc. warning limit
+50=HRM reconc. alarm limit
+51=Delivery report delay time
+52=Pump threshold
+53=OK
+54=Cancel
+
+[tankprofile]
+0=Tank profile
+1=Select tank profile
+2=Linear - enter only 1 volume (full volume)
+3=1 point - enter only 1 volume (full volume)
+4=4 points - enter 4 volume
+5=20 points - enter 20 volume
+6=Type the volumes in separated rows
+7=(Syntax: [minimum volume] new row ... [maximum volume] new row ... full volume)
+8=You have entered more or less volumes than the selected type need to have. Proceed?
+9=OK
+10=Cancel
+
+[dispensermodule]
+0=Dispenser module data string (DIM)
+1=DIM software version:
+2=Mechanical DIM string:
+3=Electronic DIM string:
+4=OK
+5=Cancel
+
+[autodailyclosing]
+0=Automatic daily closing
+1=Automatic daily closing time
+2=OK
+3=Cancel
+
+[setautoshiftclosingtime]
+0=Set auto shift closing time
+1=Shift #1 closing time
+2=Shift #2 closing time
+3=Shift #3 closing time
+4=Shift #4 closing time
+5=OK
+6=Cancel
+
+[setperiodicreconcmode]
+0=Periodic reconciliation mode
+1=Monthly
+2=Rolling
+3=Report length:
+4=OK
+5=Cancel
+
+[setperiodicreconcalarm]
+0=Periodic reconciliation alarm
+1=Periodic reconciliation alarm
+2=Threshold [%]:
+3=Offset:
+4=OK
+5=Cancel
+
+[setremotereportformat]
+0=Remote report format
+1=Remote report format: ROW
+2=Remote report format: COLUMN
+3=OK
+4=Cancel
+
+[settempcomensation]
+0=Temp compensation
+1=Satndard (TC is not used)
+2=TC volume (TC is used)
+3=OK
+4=Cancel
+
+[metercaliboffset]
+0=Meter calibration offset
+1=Offset [%]:
+2=OK
+3=Cancel
+
+[modifytankmetermap]
+0=Modify tank/meter map
+1=Power bus (MDIM)
+2=Comm bus
+3=Slot:
+4=Fuel position:
+5=Meter:
+6=Tank number:
+7=OK
+8=Cancel
+
+[setliquidsensconfiguration]
+0=Liquid sensor configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #1 - position 3
+4=Slot #1 - position 4
+5=Slot #1 - position 5
+6=Slot #1 - position 6
+7=Slot #1 - position 7
+8=Slot #1 - position 8
+9=Slot #2 - position 1
+10=Slot #2 - position 2
+11=Slot #2 - position 3
+12=Slot #2 - position 4
+13=Slot #2 - position 5
+14=Slot #2 - position 6
+15=Slot #2 - position 7
+16=Slot #2 - position 8
+17=Slot #3 - position 1
+18=Slot #3 - position 2
+19=Slot #3 - position 3
+20=Slot #3 - position 4
+21=Slot #3 - position 5
+22=Slot #3 - position 6
+23=Slot #3 - position 7
+24=Slot #3 - position 8
+25=Slot #4 - position 1
+26=Slot #4 - position 2
+27=Slot #4 - position 3
+28=Slot #4 - position 4
+29=Slot #4 - position 5
+30=Slot #4 - position 6
+31=Slot #4 - position 7
+32=Slot #4 - position 8
+33=OK
+34=Cancel
+
+[setliquidsensor]
+0=Liquid sensor setup
+1=Sensor location
+2=Sensor type
+3=Tri-State
+4=Normally Closed
+5=Dual Float Hydrostatic
+6=Dual Float Discriminating
+7=Dual Float High Vapor
+8=Interceptor Sensor
+9=Sensor category
+10=Other
+11=Annular
+12=Dispenser Pan
+13=Monitoring well
+14=STP Sump
+15=Piping Sump
+16=OK
+17=Cancel
+
+[setvaporsensconfiguration]
+0=Vapor sensor configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #1 - position 3
+4=Slot #1 - position 4
+5=Slot #1 - position 5
+6=Slot #2 - position 1
+7=Slot #2 - position 2
+8=Slot #2 - position 3
+9=Slot #2 - position 4
+10=Slot #2 - position 5
+11=Slot #3 - position 1
+12=Slot #3 - position 2
+13=Slot #3 - position 3
+14=Slot #3 - position 4
+15=Slot #3 - position 5
+16=Slot #4 - position 1
+17=Slot #4 - position 2
+18=Slot #4 - position 3
+19=Slot #4 - position 4
+20=Slot #4 - position 5
+21=OK
+22=Cancel
+
+[setvaporsensor]
+0=Vapor sensor setup
+1=Sensor location
+2=Sensor threshold [Ohm]
+3=Sensor category
+4=Other
+5=Annular
+6=Dispenser Pan
+7=Monitoring well
+8=STP Sump
+9=Piping Sump
+10=OK
+11=Cancel
+
+[setgrdwsensconfiguration]
+0=Groundwater sensor configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #1 - position 3
+4=Slot #1 - position 4
+5=Slot #1 - position 5
+6=Slot #2 - position 1
+7=Slot #2 - position 2
+8=Slot #2 - position 3
+9=Slot #2 - position 4
+10=Slot #2 - position 5
+11=Slot #3 - position 1
+12=Slot #3 - position 2
+13=Slot #3 - position 3
+14=Slot #3 - position 4
+15=Slot #3 - position 5
+16=Slot #4 - position 1
+17=Slot #4 - position 2
+18=Slot #4 - position 3
+19=Slot #4 - position 4
+20=Slot #4 - position 5
+21=OK
+22=Cancel
+
+[setgrdwsetup]
+0=Groundwater sensor setup
+1=Sensor location
+2=Sensor category
+3=Other
+4=Annular
+5=Dispenser Pan
+6=Monitoring well
+7=STP Sump
+8=Piping Sump
+9=OK
+10=Cancel
+
+[setextinputconfiguration]
+0=External input configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #2 - position 1
+4=Slot #2 - position 2
+5=Slot #3 - position 1
+6=Slot #3 - position 2
+7=Slot #4 - position 1
+8=Slot #4 - position 2
+9=OK
+10=Cancel
+
+[setextinputsetup]
+0=External input setup
+1=Name
+2=Type
+3=Standard
+4=Generator
+5=Pump Sense
+6=Standard ACK
+7=Normally closed
+8=Normally open
+9=Tank or pump number
+10=Dispense mode
+11=Standard
+12=Manifolded: alternate
+13=Manifolded: sequential
+14=Manifolded: all pumps
+15=OK
+16=Cancel
+
+[setrelayconfiguration]
+0=Relay configuration
+1=Slot #1 - position 1
+2=Slot #1 - position 2
+3=Slot #1 - position 3
+4=Slot #1 - position 4
+5=Slot #2 - position 1
+6=Slot #2 - position 2
+7=Slot #2 - position 3
+8=Slot #2 - position 4
+9=Slot #3 - position 1
+10=Slot #3 - position 2
+11=Slot #3 - position 3
+12=Slot #3 - position 4
+13=Slot #4 - position 1
+14=Slot #4 - position 2
+15=Slot #4 - position 3
+16=Slot #4 - position 4
+17=OK
+18=Cancel
+
+[setrelaysetup]
+0=Output relay setup
+1=Designation
+2=Type
+3=Standard
+4=Pump control output
+5=Momentary
+6=Pump comm control
+7=Normally closed
+8=Normally open
+9=Tank number
+10=OK
+11=Cancel
+
+[archiving]
+0=Archiv utility
+1=Are you sure? This may take a few minutes.
+2=OK
+3=Cancel

@@ -1,0 +1,211 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+***	Version history of TLStool	***
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+0.0.0.8 beta
+------------
+
+- TCommunicationinterface was tested completly.
+- MainForm and setup functions are loading in the list box.
+- The system metric & date/time settings dialog window operate. The answer also operate.
+
+0.0.0.13. beta
+--------------
+
+- this is the first 'released' beta version:
+	- saving window and language and port settings in .ini and .lng file;
+	- main window have a reports window that displays the answer of the device and you can set up this window's color;
+	- the language loading is done by member functions of the HandleIni class;
+	- HandleIni and TLSDevice class was checked with error searching;
+- setup functions are done:
+	- 501;
+	- 505;
+	- 50F;
+- is created an icon for software.
+
+0.0.0.19. beta
+--------------
+
+- commands that are done: 503,501,505,50f,502,211,512,51c,51d,532,533,534,506,51e,546,547,548,549,54a,54b,553,556,557,558,559,55a,55b,50c,50d,50e,513.
+- new class: TShowCmdSpecWindows, it displays the GeneralDlgW and creates the controls on it in runtime.
+- new module:
+	ConvertMessageStrings.cpp: it reads out the specified setting from the answer string; it converts also the ASCII floating point to float.
+	convert_tools.cpp: it converts from character to binary, i.e.: '2' in char = int bin[4] = {0100};
+
+0.0.0.20. beta
+--------------
+
+- commands are done: 60B,514,519,554,555,51A,51B.
+
+0.0.0.21. beta
+--------------
+
+- commands are done: 516,515;
+
+0.0.0.22. beta
+--------------
+
+- commands are done: 51F,504.
+- system setup is done but not bug-searched and not tested!
+
+0.0.0.23(-24). beta
+--------------
+
+- failures was with the initializing the port settings in the main window on start up. Resolved.
+- failure was in the convert messages unit: if the answer string "9999FF1B" the command is unknown->this is chekced by a static function (valid_command()); and the string length checking was a wrong place. Resolved.
+- optimized command character array loading with copy_char()/copy_char_ex()/copy_chars() functions.
+
+0.0.0.25. beta
+--------------
+
+- bug fixes in the system setup funtcions.
+- optimized settings dialog creation with Create[Label][Edit][UpDown][GroupBox][RadioButton][CheckBox][ComboBox][DateTimePicker]() functions.
+
+0.0.0.26. beta
+--------------
+
+- commands are done: 536,881,882,885,886,887,889.
+- bug fixes: wrong language when language not exists - resolved.
+
+0.0.0.27. beta
+--------------
+
+- command is done: 522.
+
+0.0.0.28. beta
+--------------
+
+- commands are done: 521,523,524,525,526,527,528.
+
+0.0.0.29. beta
+--------------
+
+- bug fixes: was problem with the TDateTime TimeString() method (need to set up the long time format) - resolved.
+
+0.0.0.31. beta
+--------------
+
+- commands are done: 52A,529,520,(52B-obsolete).
+
+0.0.0.32. beta
+--------------
+
+- commands are done: 531,601.
+- bug fixes: fail was on show/hide report window - resolved.
+
+0.0.0.33. beta
+--------------
+
+- commands are done: 602,603,609.
+
+0.0.0.34. beta
+--------------
+
+- commands are done: 607,615,639,616,62F.
+
+0.0.0.35. beta
+--------------
+
+- commands are done: 627,624.
+
+0.0.0.36. beta
+--------------
+
+- commands are done: 628.
+- commands are present: 623(not tested),622(not tested),629(not tested),621(not tested),626(not tested),625(not tested),608(not tested),60F(not tested).
+
+0.0.0.37. beta
+--------------
+
+- commands are done: 623,622,629,621,626,625,608,60F,612,636,62A,62C,62D.
+
+0.0.0.38. beta
+--------------
+
+- commands are done: 631,630,632,60C,634,635,610,63A.
+
+0.0.0.39. beta
+--------------
+
+- optimalized command string sending with new send() function. Not ready on all dialog windows.
+
+0.0.0.40. beta
+--------------
+
+- send() function implementation.
+- TTLSDevice's command string initialisation is better: all strings are in the resource of the application in a string table. (No more memset() is used)
+
+0.0.0.41. beta
+--------------
+
+- system setup functions tested with the new send() function and replaced here all StrToInt() and IntToStr() and while()... to xxx.sprintf().
+- communication setup tested with the new send() function.
+- in-tank setup created and tested with the new send() function.
+- all existing function tested again.
+
+0.0.0.42. beta
+--------------
+
+- new modul: shows the transmission status with progress bar.
+- bug fix: autodial on alarm was failed.
+- commands are done: 604,605,606,60A,790,791,792.
+
+0.0.0.43. beta
+--------------
+
+- repaired: the return values of the CreateXXX() functions are used when the return value will used later.
+- bug fixes: command initialisation failure.
+- commands are done: 793,794,795,796.
+
+0.0.0.44. beta
+--------------
+
+- commands are done: 797,798,799,79A,79F,7B2,7B1.
+- released version.
+
+0.0.0.45. beta
+--------------
+
+- commands are done: 701,702,703,704,706,707,708,709,711,712,713.
+
+0.0.0.46. beta
+--------------
+
+- commands are done: 801,802,803,804,806,807,808(only code frame!),809,80A,80B,851(not tested),852(not tested),853(not tested).
+
+0.0.0.47. beta
+--------------
+
+- commands are done: 851,852,853.
+- bug fixes: in the init_command_string_list_and_id_array() function one command was placed wrong.
+- new get_computer_format_answer() function to get computer format answer message, it copies the command string parameters, sends the message, checks the checksum.
+- the UpDown controls have an OnClick event (only where this need!).
+- in the in-tank setup the overfill level, the high product, the delivery level, the periodic leak and the annual leak test methods are calculated with procent.
+- with this version ready the manual settings of the setup.
+- need more live tests and design check.
+- the processing of the computer answer (in ConvertMessageStrings.cpp) need to optimize.
+- released version.
+
+0.0.1.1. beta
+-------------
+
+- new TSatndaloneCommand class: this class can tell the command name, answer string etc. => it handles (send to device and read the answer, format the answer and write the answer to the file, read and send the stored data from file) one command and the TLSDevice class have from this 244qty in a TList.
+- new dialog: TwBackup to select the file to backup and restore settings, it can set up the backup environment (author name, place name etc.).
+- new dialog: TwBackupProcess to show the state of the backup and restore process.
+- the save configuration (save to file) run but it is recommend to hard test and user test.
+
+0.0.1.2. beta
+-------------
+
+- the save configuration was tested hardly. I finded no error, all function operate good but a user and live test is recommended.
+- released version.
+
+1.0.0.0.
+--------
+
+- the backup and restore functions are hard tested in the office with a default device (TLS-350R) and was no failure.
+- shortc cuts: F1-help, F2-software options, F3 comm options, F5-backup, F6-restore, F10-show/hide report window, F11-open port, F12-close port.
+- better backup and restore process-display.
+- new toolbar button to open/close port.
+- the help button is not accsessable.
+- relesaed version.
